@@ -1,0 +1,121 @@
+.Navbar {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px 0px 0px;
+    background-color: transparent;
+    width: 100%;
+    z-index: 1000;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.nav-logo {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo-phone {
+    position: relative;
+    color: #32A9FD;
+    top: 0px;
+    left: 0px;
+    font-size: 18px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: #000;
+    padding: 15px;
+    margin: 0px;    
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    width: 80%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-menu li:hover {
+    margin: -1px;
+    border: 1px solid #000;
+}
+
+.nav-logo img {
+    max-width: 120px;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        z-index: 999;
+    }
+
+    .mobile-nav-menu {
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 200;
+        text-align: left;
+        padding: 20px;
+        color: #ffffff;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .mobile-nav-menu li {
+        justify-content: center;
+        color: #ffffff;
+        width: 16%;
+        font-size: 28px;
+        margin: 0 0 21px;
+    }
+
+    .mobile-nav-menu li a {
+        color: #ffffff;
+    }
+
+    .hamburger-menu a {
+        color: #000000;
+        vertical-align: middle;
+        line-height: 74px;
+    }
+
+    .nav-menu li:hover {
+        margin: -1px;
+        border: 1px solid #ffffff;
+    }
+
+    .cls-color path {
+        stroke: #ffffff;
+    }
+}
