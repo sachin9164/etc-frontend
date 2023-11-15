@@ -1,12 +1,11 @@
 import SimpleImageSlider from "react-simple-image-slider";
-import image1 from '../Assets/image1.jpg'
-import image2 from '../Assets/image2.jpg'
-import image3 from '../Assets/image3.jpg'
+import job from '../Assets/job.jpg'
+import startup from '../Assets/startup.jpg'
+import teamwork from '../Assets/teamwork.jpg'
 const images = [
-  { url: image1},
-  { url: image2},
-  { url: image3},
-  { url: image2},
+  { url: job},
+  { url: startup},
+  { url: teamwork},
 ];
 
 const SimpleSlider = () => {
@@ -18,6 +17,7 @@ const SimpleSlider = () => {
         images={images}
         showBullets={true}
         showNavs={true}
+        slideDuration={1000}
       />
     </div>
   );

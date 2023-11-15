@@ -1,13 +1,13 @@
 .Navbar {
     position: absolute;
     display: flex;
-    justify-content: space-around;
-    padding: 10px 0px 0px 0px;
+    justify-content: space-between;
+    padding: 20px 20px 0px 20px;
     background-color: transparent;
-    width: 100%;
+    width: -webkit-fill-available;
     z-index: 1000;
     background-color: transparent;
-    color: #ffffff;
+    color: #0da6f2d6;
 }
 
 .nav-logo {
@@ -31,7 +31,7 @@
     align-items: center;
     list-style: none;
     color: #000;
-    padding: 15px;
+    padding: 0px;
     margin: 0px;    
 }
 
@@ -50,15 +50,17 @@
 
 .nav-menu li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #0da6f2d6;
     font-weight: bold;
 }
 
 .nav-menu li:hover {
     margin: -1px;
-    border: 1px solid #000;
+    border: 1px solid #0da6f2d6;
 }
-
+.nav-menu li a:hover {
+    color: #ffffff;
+}
 .nav-logo img {
     max-width: 120px;
 }
@@ -79,17 +81,17 @@
 
     .mobile-nav-menu {
         position: absolute;
-        display: flex;
-        width: 100%;
-        height: 100vh;
-        background: rgba(0, 0, 0, 0.8);
-        z-index: 200;
-        text-align: left;
-        padding: 20px;
-        color: #ffffff;
-        flex-direction: column;
-        justify-content: center;
-        border-radius: 10px;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 200;
+    text-align: left;
+    color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    top: 0px;
+    left: 0px;
     }
 
     .mobile-nav-menu li {
@@ -97,24 +99,25 @@
         color: #ffffff;
         width: 16%;
         font-size: 28px;
-        margin: 0 0 21px;
     }
 
     .mobile-nav-menu li a {
-        color: #ffffff;
+        color: #0da6f2d6;
     }
 
     .hamburger-menu a {
-        color: #000000;
+        color: #0da6f2d6;
         vertical-align: middle;
         line-height: 74px;
     }
 
     .nav-menu li:hover {
         margin: -1px;
-        border: 1px solid #ffffff;
+        border: 1px solid #0da6f2d6;
     }
-
+    .nav-menu li a:hover {
+        color: #ffffff;
+    }
     .cls-color path {
         stroke: #ffffff;
     }
