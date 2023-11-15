@@ -1,10 +1,12 @@
 import SimpleImageSlider from "react-simple-image-slider";
-
+import image1 from '../Assets/image1.jpg'
+import image2 from '../Assets/image2.jpg'
+import image3 from '../Assets/image3.jpg'
 const images = [
-  { url: "https://www.bendlawoffice.com/wp-content/uploads/2014/06/pexels-kehn-hermano-3584437-scaled.jpg" },
-  { url: "https://www.bendlawoffice.com/wp-content/uploads/2014/06/pexels-vlada-karpovich-4449867-scaled.jpg" },
-  { url: "https://www.bendlawoffice.com/wp-content/uploads/2014/06/pexels-kehn-hermano-3584437-scaled.jpg" },
-  { url: "https://www.bendlawoffice.com/wp-content/uploads/2014/06/pexels-kehn-hermano-3584437-scaled.jpg" },
+  { url: image1},
+  { url: image2},
+  { url: image3},
+  { url: image2},
 ];
 
 const SimpleSlider = () => {
