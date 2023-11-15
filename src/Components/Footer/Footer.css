@@ -29,7 +29,8 @@
     justify-content: space-between;
     margin: 0 auto;
     color: #fff;
-    padding: 43px 120px;
+    padding: 44px 120px;
+    border-bottom: 1px solid #f5f3f3;
 }
 .container p { 
     font-size: 18px;
@@ -53,6 +54,7 @@
     
 }
 .social{
+    padding-top: 20px;
     display: flex;
     justify-content: flex-end;
 }
@@ -64,7 +66,9 @@
 .social-icons{
    display: flex;
 }
-
+.social-icons li svg{
+    font-size: 50px;
+}
 @media (max-width: 767px) {
     .copy-rights{
         padding: 0px;

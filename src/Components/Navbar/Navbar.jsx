@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import logo from '../Assets/Logo.jpg'
+import logo from '../Assets/Logo.png'
 import { NavLink } from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { GrClose } from 'react-icons/gr';
@@ -17,7 +17,6 @@ export const Navbar = () => {
           <li><NavLink to='/about'>About</NavLink></li>
           <li><NavLink to='/client'>Client</NavLink></li>
           <li><NavLink to='/service'>Service</NavLink></li>
-          <li><NavLink to='/blog'>Blog</NavLink></li>
         </ul>
         
         <div className='hamburger-menu'>
