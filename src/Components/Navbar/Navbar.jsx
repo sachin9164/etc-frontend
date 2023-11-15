@@ -15,7 +15,7 @@ export const Navbar = () => {
         </div>
         <ul className = {showMediaIcons ? "nav-menu mobile-nav-menu" : "nav-menu" }>
           <li><NavLink to='/about'>About</NavLink></li>
-          <li><NavLink to='/client'>Client</NavLink></li>
+          <li><NavLink to='/contact'>Contact Us</NavLink></li>
           <li><NavLink to='/service'>Service</NavLink></li>
         </ul>
         

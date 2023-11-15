@@ -17,7 +17,7 @@ const SimpleSlider = () => {
         images={images}
         showBullets={true}
         showNavs={true}
-        slideDuration={1000}
+        autoPlay={true}
       />
     </div>
   );

@@ -1,5 +1,3 @@
-
-
 .client-header h1 {
     color: white;
     font-size: 34px;
@@ -8,6 +6,7 @@
     margin: 0 auto;
     text-align: center;
 }
+
 .contact-us {
     color: #000000;
     text-align: center;
@@ -16,11 +15,32 @@
     border-bottom: 1px solid #2E2E2E;
     padding: 20px 0px;
 }
-.contact-us h5{
+
+.contact-us h5 {
     margin: 0px;
 }
-.contact-us p{
+
+.contact-us p {
     margin: 0px;
     font-size: 16px;
     line-height: 20px;
+}
+
+.media-publications {
+    background: #000;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 10px;
+    line-height: 45px;
+    border-bottom: 1px solid #2E2E2E;
+}
+
+.mp-logo li {
+    display: inline-table;
+    padding: 20px;
+}
+
+.mp-logo ul li img:hover {
+    opacity: 0.5;
 }
