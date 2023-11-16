@@ -61,7 +61,7 @@
 .social-award-icons{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 .social-icons{
    display: flex;
