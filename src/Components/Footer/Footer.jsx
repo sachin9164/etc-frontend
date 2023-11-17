@@ -15,11 +15,7 @@ export const Footer = () => {
         <p>CA - 94568</p>
         </div>
         <div className="right-column">
-        <div className="social-award-icons">
-            <img src="https://www.bendlawoffice.com/wp-content/uploads/2016/05/Money_Sign.png" alt="Ima 1" width="140"></img>
-            <img src="https://www.bendlawoffice.com/wp-content/uploads/2016/05/Money_Sign.png" alt="Ima 2" width="140"></img>
-            <img src="https://www.bendlawoffice.com/wp-content/uploads/2016/05/Money_Sign.png" alt="Ima 3" width="140"></img>
-        </div>
+        
             <div className="social">
             
             <ul className="social-icons">
