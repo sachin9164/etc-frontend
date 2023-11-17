@@ -16,9 +16,9 @@ export const Footer = () => {
         </div>
         <div className="right-column">
         <div className="social-award-icons">
-            <img src="https://www.bendlawoffice.com/wp-content/uploads/2016/05/Money_Sign.png" alt="Ima 1" width="150"></img>
-            <img src="https://www.bendlawoffice.com/wp-content/uploads/2016/05/Money_Sign.png" alt="Ima 2" width="150"></img>
-            <img src="https://www.bendlawoffice.com/wp-content/uploads/2016/05/Money_Sign.png" alt="Ima 3" width="150"></img>
+            <img src="https://www.bendlawoffice.com/wp-content/uploads/2016/05/Money_Sign.png" alt="Ima 1" width="140"></img>
+            <img src="https://www.bendlawoffice.com/wp-content/uploads/2016/05/Money_Sign.png" alt="Ima 2" width="140"></img>
+            <img src="https://www.bendlawoffice.com/wp-content/uploads/2016/05/Money_Sign.png" alt="Ima 3" width="140"></img>
         </div>
             <div className="social">
             
@@ -33,11 +33,11 @@ export const Footer = () => {
             
             <div className='copy-rights'>
                 <ul className='copy-menu'>
-                    <li>Copyright BLG 2023</li>
-                    <li>Terms & Use</li>
-                    <li>Privacy Policy</li>
-                    <li>Resources</li>
-                    <li>Site by Butchershop Creative</li>
+                    <li>Lorem Ipsum 2023</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
                 </ul>
             </div>
 
