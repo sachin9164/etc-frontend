@@ -8,8 +8,10 @@ export const Service = () => {
       <Navbar />
       <img src="https://www.bendlawoffice.com/wp-content/uploads/2018/09/Bay-Bridge.png" alt="Ima 1" width="100%" height='350'></img>
       <div class="card-wrapper">
+        <div class="card-header-desc">
       <h1>Our services</h1>
       <p class="service-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque et cum odit a? Veniam ea ipsam alias, temporibus, consequatur itaque libero ullam praesentium explicabo natus earum officia velit ducimus tempora.</p>
+      </div>
       <div class="card-container">
       
         <div class="card">

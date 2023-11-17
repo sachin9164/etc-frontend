@@ -73,6 +73,7 @@
     width: 70%;
     font-size: 20px;
 }
+
 @media (max-width: 767px) {
     .copy-rights{
         padding: 0px;
@@ -95,5 +96,14 @@
     }
     .instruction{
         padding: 20px;
+    }
+    .card-wrapper{
+        margin: 10px;
+    }
+    .card-header-desc{
+        text-align: center;
+    }
+    .service-description{
+        width: 100%;
     }
 }
