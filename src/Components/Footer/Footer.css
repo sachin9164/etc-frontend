@@ -61,13 +61,17 @@
 .social-award-icons{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 .social-icons{
    display: flex;
 }
 .social-icons li svg{
     font-size: 50px;
+}
+.service-description{
+    width: 70%;
+    font-size: 20px;
 }
 @media (max-width: 767px) {
     .copy-rights{
